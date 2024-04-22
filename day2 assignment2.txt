@@ -1,0 +1,25 @@
+Recursive Function and Efficiency Analysis - Write a recursive function pseudocode and calculate the nth 
+Fibonacci number and use Big O notation to analyze its efficiency. Compare this with an iterative approach
+ and discuss the pros and cons in terms of space and time complexity.
+ pseudocode for fibonacci
+function fibonacci(n,m):
+    if n in m:
+        return m[n]
+    if n is 0:
+        m[n] = 0
+    else if n is 1:
+        m[n] = 1
+    else:
+        m[n] = fibonacci(n-1, m) + fibonacci(n-2, m)
+    return m[n]
+
+function calculateFibonacci(n):
+    m = {}
+    return fibonacci(n, m)
+Efficiency analysis 
+Time Complexity: the time complexity of this recursive Fibonacci function is O(n). 
+This is because each Fibonacci number is calculated only once and stored in the m dictionary, 
+so subsequent calls for the same Fibonacci number simply retrieve the value from m.
+
+Space Complexity: The space complexity of this memoized recursive Fibonacci function is O(n). 
+

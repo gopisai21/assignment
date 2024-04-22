@@ -1,0 +1,45 @@
+"Assignment 1: Pseudocode and Flowchart for Sorting Algorithm - Write pseudocode and create a flowchart 
+for a bubble sort algorithm. Provide a brief explanation of how the algorithm works and a simple array of 
+integers to demonstrate a dry run of your algorithm
+pseudo code for bubble sort
+
+function bubbleSort(array):
+    n = length of array
+    for i from 0 to n-1:
+        for j from 0 to n-i-1:
+            if array[j] > array[j+1]:
+                swap array[j] with array[j+1]
+    return array
+
+flowchart
+https://lucid.app/lucidspark/4b2d7423-8dd8-4f1c-a993-f43ab488d23e/edit?viewport_loc=-235%2C-252%2C2048%2C973%2C0_0&invitationId=inv_b1effb29-598e-4dbd-84b1-c642e27c8517
+
+ALgorithm
+Algorithm Steps:
+
+step1:Start from the beginning of the list and compare the first two elements. 
+step2:If the first element is greater than the second, swap them.
+step3:Move to the next pair of elements, and so on, continuously comparing and swapping if necessary.
+step4:After each iteration, the largest unsorted element will "bubble up" to its correct position.
+step5:Repeat the process for the remaining unsorted elements until the entire list is sorted.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,58 @@
+pseudo code  for factorial of a number 
+step1:Declare A and B as integer values 
+step2: INitialize B=1
+step3:Enter the values of A 
+step4:check wheather A>0 if not B=1
+step5:if yes then B=B*A
+step6:decrease the value of A by 1
+step7:repeat step5 and 6 until A=0
+step8:now print the values of B
+
+   The values of B will be factorial of  A(number)
+   
+   Code for factorial number
+Fact (A)
+Begin
+if a==1 then 
+Return;
+else 
+return A*call Fact(A-1);
+end if 
+End 
+
+  pseudo code for nth fibonacci number:
+   step1: start
+   step2: Input value of N 
+   step3: A=0,B=1,count=2
+   step4:write A,B
+   step5: if (count > N) then go to step 12
+   step6: Next=A+B
+   step7: write Next
+   step8: A=B
+   step9: B=Next
+   step10: count = count+1
+   step11: Goto step4
+   step12: stop
+   
+Algorithm
+if (n==0 or n==1)
+{
+return 1
+}
+ return fib(n-1)+fib(n-2);
+  
+  Explanation:
+  first we read the values of n
+  line2: we declare int fib(int).
+  line7:we call the function fib(n)
+  line9: we declare the function
+  line11-14: if n is 0, we return 0
+  line15-18: if n is 1or 2 ,we return 1
+  line 19: if n is some thing other than 0,1,2 then we call fib(n-1)+fib(n-2) recursively
+  
+  
+ 
+    
+
+
+ 
